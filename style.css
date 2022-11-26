@@ -60,7 +60,8 @@ img{
     bottom: 15px;
 }
 .Instagram img{
-    width: 10px;
+    width: 20px;
+    height:20px;
     margin: 10px 20px 10px 17px;
     display: flex;
     float: left;
