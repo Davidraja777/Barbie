@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    min-width: 390px;
+    min-width: 450px;
     height: 844px;
     background-color: #e0218a;
     justify-content: center;
@@ -59,7 +59,7 @@ img{
     bottom: 15px;
 }
 .Instagram img{
-    width: 18%;
+    width: 10px;
     margin: 10px 20px 10px 17px;
     display: flex;
     float: left;
