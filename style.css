@@ -31,7 +31,8 @@ img{
     margin: 30px 130px;
 }
 .pictures img{
-    width: 40.5%;
+    width: 50px;
+    height:100px;
     margin: 10px 20px 10px 17px;
     display: flex;
     float: left;
