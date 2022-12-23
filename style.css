@@ -2,73 +2,45 @@
     margin: 0;
     padding: 0;
 }
-html{
-    height: -webkit-fill-available;
-}
-body{
-    background-color: white;
-    display: flex;
-    min-width: 390px;
-    height: -webkit-fill-available;
-}
-
 .container{
-    min-width: 450px;
-    height: 844px;
-    background-color: #e0218a;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    max-width: 390px;
+    background-color:#E0218A;
+
 }
-.container h1{
+.barbie{
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+h1{
+    padding: 10px 10px;
+    font-family: 'Great Vibes', cursive;
+    flex-wrap: column;
+    color: white;
+    text-align: center;
+}
+.img-1 img{
+    display: block;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+p{
     font-family: 'Great Vibes', cursive;
     color: white;
-    margin: 0px 80px;
-}
-img{
-    width: fit-content;
-    height: fit-content;
-    margin: 30px 130px;
-}
-.pictures img{
-    width: 100px;
-    height:200px;
-    margin: 10px 20px 10px 17px;
-    display: flex;
-    float: left;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: -4px 7px 26px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -4px 7px 26px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -4px 7px 26px 0px rgba(0,0,0,0.75);
-}
-.container p{
-    margin: 0px 50px;
-    font-family: 'Great Vibes', cursive;
-    color: white;
-    display: flex;
-    float: left;
-}
-.secondlastcaption{
-    position: relative;
-    right: 20px;
-    bottom: -5px;
-}
-.lastcaption{
-    position: relative;
-    left: 160px;
-    bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 10px;
 }
 .Instagram img{
-    width: 20px;
-    height:20px;
-    margin: 10px 20px 10px 17px;
-    display: flex;
-    float: left;
-    align-items: center;
-    border-radius: 20px;
+    display: block;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
-    position: relative;
-    top: 20px;
-    right: 114px;
+    border-radius: 25px;
 }
